@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Heading, VStack } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 
 const menu =  [ {

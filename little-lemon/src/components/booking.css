@@ -1,0 +1,24 @@
+.bookingform{
+    padding-top: 50px;
+    width: auto;
+    font-size: 14pt;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #333333;
+  }
+
+  .bookingform  button {
+    background-color: #495e57;
+    border: none;
+    border-radius: 10px;
+    color: #edefee;
+    box-shadow: none;
+    width: 140px;
+    height: 50px
+  }

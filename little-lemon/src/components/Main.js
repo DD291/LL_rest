@@ -5,8 +5,8 @@ import Nav from "./Nav";
 import Home from "./Home";
 import About from "./About";
 import Menu from "./Menu";
-import {useState} from "react";
-import Header from "./Header";
+import ConfirmedBooking from "./ConfirmedBooking";
+
 
 
 
@@ -21,6 +21,7 @@ return (
             <Route path="/about" element={<About/>}> </Route>
             <Route path="/menu" element={<Menu/>}> </Route>
             <Route path="/bookingPage" element={<BookingPage/>}> </Route>
+            <Route path="/confirmedBooking" element={<ConfirmedBooking />} />
         </Routes>
         </BrowserRouter>
     </div>
