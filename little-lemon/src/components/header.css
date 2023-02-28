@@ -1,0 +1,49 @@
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    color:#edefee;
+    font-size: 13pt;
+    padding: 20px 20px 20px 20px;
+  }
+
+  
+  .header h1 {
+    font-size: 21pt;
+    color:#f4ce14;
+  }
+  
+  .header h2 {
+    color:#495e57;
+  }
+  
+  .header button {
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 5px;
+    border-color: #f4ce14;
+    box-shadow: none;
+    width: 200px;
+    height: 50px;
+    font-size: 15pt;
+  }
+
+  .header-left {
+    text-align: left;
+  }
+
+  .header-right{
+    text-align: right;
+    align-self: right;
+  }
+
+  
+   /* background-color:
+    primary: #495e57 darkgreen ;
+    #f4ce14 yellow;
+    secondary: #ee9972 bright orange;
+    #fbdabb light peach;
+    #edefee very light grey ;
+    #333333 very dark gray*/

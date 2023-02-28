@@ -1,0 +1,49 @@
+
+.nav {
+    grid-area: nav;
+     /* 
+     background-color:
+     primary: #495e57 #f4ce14; secondary: #ee9972 #fbdabb #edefee #333333*/
+     color: #edefee;
+     background-color: #495e57;
+     font-size: 16pt;
+     overflow:hidden;
+    }
+  
+    .nav ul {
+      display: flexbox;
+      list-style-type: none;
+      position: relative;
+      width: 100%;
+    }
+  
+    .nav ul li {
+      display: inline-block;
+      margin-top: 5vb;
+      margin-bottom: 5vb;
+      margin-left: 5vb;
+      margin-right: 5vb;
+      padding: 0 1vb;
+    }
+    
+    .nav a {
+        color: #edefee;
+      text-decoration: none;
+    }
+  
+  .nav li {
+      margin-left: 1vb;
+      margin-right: 1vb;
+    }
+  
+  .nav a:hover {
+      background-color: #ee9972;
+      border-radius: 20%;
+    }
+  
+    .nav img {
+      margin-left: 0;
+      padding-left: 0;
+      padding-bottom: 5%;
+    }
+  

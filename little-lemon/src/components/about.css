@@ -1,0 +1,37 @@
+  /* ABOUT */
+
+  .about {
+    color: #edefee;
+    text-decoration: none;
+    text-align: left;
+    background-color: #495e57;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    padding-bottom: 3vw;
+    border-radius: 3%;
+  }
+
+  .about h1 {
+    text-align: left;
+    margin-left: 10vb;
+    font-size: 20pt;
+    color:#f4ce14;
+  }
+  
+  .about h2 {
+    text-align: left;
+    font-size: 18pt;
+    margin-left: 10vb;
+    margin-bottom: 2vb;
+    color:#edefee;
+  }
+
+  .about > p {
+    margin-left: 5vw;
+    color:#edefee;
+  }
+
+  .about .hstack {
+    align-self: center;
+    margin-left: 1vw;
+  }

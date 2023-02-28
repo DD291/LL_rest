@@ -1,0 +1,152 @@
+.App {
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+@media (max-width: 700px) {
+  .grid-adjustable-columns {
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 701px) {
+  .grid-adjustable-columns {
+    width: min(1000px,75rem);
+    margin: 0 auto;
+    grid-auto-flow: column;
+    gap: 1em;
+  }
+}
+
+
+body {
+  display: grid;
+  height: 100vw;
+  text-align: center;
+  grid-template-areas: "nav"
+                       "header"
+                       "main"
+                       "footer";
+background-color: white;
+
+}
+
+
+
+
+ /* MAIN */
+
+
+    .main {
+      grid-area: main;
+      align-self: center;
+      background-color: #fbdabb;
+      padding-bottom: 10px;
+    }
+
+    
+
+
+
+
+
+  /* FOOTER */
+
+  .footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-size: 15pt;    
+  }
+
+.footer a {
+    color: #333333;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-left {
+    padding-left: 10px;
+      text-align: left;
+  }
+
+  .footer-left p1 {
+    padding-left: 50px;
+    text-align: left;
+  }
+
+  .footer-left ul > li {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12pt;
+  }
+
+  .footer-center {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .footer-center ul > li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 15px;
+  }
+
+  .footer-right {
+    margin-top: 20px;
+    text-align: right;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOOKING FORM */
+
+
+.bookingForm {
+  font-size: 15pt;
+  margin-left: 50vw ;
+  margin-right: 50vw;
+  background-color: #edefee;
+  border-radius: 20px;
+  padding: 40px 50px 40px 50px;
+  gap: 20px;
+}
+
+
+
+.bookingForm  button {
+  background-color: #495e57;
+  border: none;
+  border-radius: 20px;
+  color: #fbdabb;
+  box-shadow: none;
+  width: 100px;
+  height: 30px
+}
+
+.form_date, .form_time, .form_occasion, .form_guests {
+  font-size: 15pt;
+  padding: 5px 10px 5px 10px;
+}
+
+.bookingForm label {
+  padding: 5px 10px 5px 10px;
+}
