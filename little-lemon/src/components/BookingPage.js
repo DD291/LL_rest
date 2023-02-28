@@ -37,7 +37,7 @@ function handleDateChange(e) {
 }
 
 return (
-  <form className="bookingform">
+  <form className="bookingform" method="get">
     <div>
       <label htmlFor="Name">Name</label> <br></br>
       <input

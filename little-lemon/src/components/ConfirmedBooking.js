@@ -6,10 +6,10 @@ import { Heading } from "@chakra-ui/react";
 
 const ConfirmedBooking = () => {
 return (
-    <>
+    <div className="confbooking">
         <Heading color="#495e57" fontSize="18pt" padding="20pt"> Booking successfull </Heading>
-        <Link to="/." className="a"> Home </Link>
-    </>
+        <Link to="/." className="a"> <button>  Home </button> </Link>
+    </div>
 )};
 
 export default ConfirmedBooking;
